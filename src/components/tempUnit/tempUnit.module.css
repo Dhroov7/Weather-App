@@ -1,0 +1,23 @@
+.temp-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: end;
+}
+
+.temp-button {
+  width: 4rem;
+  height: 4rem;
+  background: #e7e7eb;
+  border-radius: 5.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.temp-button p {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #110e3c;
+}

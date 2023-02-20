@@ -1,0 +1,29 @@
+.forecast-card {
+    background-color: #1E213A;
+    width: 12rem;
+    height: 17.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.forecast-card p {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #E7E7EB;
+}
+
+.forecast-image {
+    width: 5.5rem;
+}
+
+.temp-range {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.temp-range p:nth-child(2) {
+    color: #A09FB1;
+}

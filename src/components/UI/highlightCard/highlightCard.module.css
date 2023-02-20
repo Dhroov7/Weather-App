@@ -1,0 +1,24 @@
+.highlight-card {
+  background-color: #1e213a;
+  width: 32.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.2rem;
+  padding-bottom: 3.5rem;
+  gap: 2rem;
+}
+
+.highlight-card p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #e7e7eb;
+}
+
+.highlight-card h1 {
+  font-weight: 700;
+  font-size: 6.4rem;
+  color: #e7e7eb;
+}
