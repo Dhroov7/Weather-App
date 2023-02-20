@@ -10,7 +10,7 @@ function ForecastCard({ dayData, tempUnit }) {
     <div className={forecastCardStyles["forecast-card"]}>
       <p>{date}</p>
       <img
-        src={`/images/${getWeatherImageName(dayData.day.condition.text)}.png`}
+        src={`/weather-app/images/${getWeatherImageName(dayData.day.condition.text)}.png`}
         className={forecastCardStyles["forecast-image"]}
         alt="weather"
       />

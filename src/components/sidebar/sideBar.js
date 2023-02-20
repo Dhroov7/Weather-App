@@ -27,7 +27,7 @@ export default function SideBar({ weatherData, setLocation, tempUnit }) {
     const timeOutId = setTimeout(() => {
       axios
         .get(
-          `http://api.weatherapi.com/v1/search.json?key=${process.env.WEATHER_API_KEY}&q=${event.target.value}`
+          `http://api.weatherapi.com/v1/search.json?key=3e6d2cbe5fa64c18b21173827232701&q=${event.target.value}`
         )
         .then((response) => {
           setCityList(response.data);
@@ -97,7 +97,7 @@ export default function SideBar({ weatherData, setLocation, tempUnit }) {
         </div>
       </div>
       <img
-        src={`/images/${getWeatherImageName(
+        src={`/weather-app/images/${getWeatherImageName(
           weatherData.current.condition.text
         )}.png`}
         alt="weather"
