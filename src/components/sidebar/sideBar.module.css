@@ -162,3 +162,9 @@ h1 {
   gap: 3.2rem;
   align-items: center;
 }
+
+@media (max-width: 700px) {
+  .sidebar {
+    gap: 2.2rem;
+  }
+}
